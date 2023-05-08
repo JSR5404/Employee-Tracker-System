@@ -99,21 +99,23 @@ function addEmployee() {
             case "View all employees":
               viewEmployees();
               break;
-            case "View all roles":
-              viewRoles();
-              break;
             case "Add a department":
               addDepartment();
               break;
+              case "View all roles":
+              viewRoles();
+              break;
+            
             case "Add a role":
               addRoles();
-              break;
-            case "Add an employee":
-              addEmployee();
               break;
             case "Update an employee's role":
               updateRole();
               break;
+            case "Add an employee":
+              addEmployee();
+              break;
+            
           }
         });
       };
